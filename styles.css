@@ -150,6 +150,9 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2em;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .project > * div {
