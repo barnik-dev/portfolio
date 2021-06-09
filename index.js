@@ -9,7 +9,3 @@ form.focusout(function () {
     
 });
 
-function redirectToProject() {
-    $(document).scrollTop(1050);
-}
-
