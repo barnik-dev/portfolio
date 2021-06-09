@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Barnik. | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f2fad422c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- Navbar Section -->
+    <section class="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">BARNIK.</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#my_skills">Skills</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                </ul>
+
+                <a href="#contact_me" class="secondary-cta">Contact Me</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <h1 class="head">Hello There!</h1>
+                <h1 class="subhead">I AM A WEB DEVELOPER.</h1>
+                
+                <h2 class="quote">"Enthusiast to make
+                    projects that stands out of the 
+                    rest."</h2>
+
+                <button class="primary-cta" onclick="redirectToProject()">My Projects</button>
+            </div>
+
+            <div class="right-col">
+                <img src="images/hero-img.png" alt="person-coding-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="my_skills">
+        <h1 class="section-head">MY SKILLS</h1>
+        <div class="container">
+            <div class="card">
+                <img src="images/html.png" alt="html-icon">
+                <p>HTML</p>
+            </div>
+            <div class="card">
+                <img src="images/css.png" alt="css-icon">
+                <p>CSS</p>
+            </div>
+            <div class="card">
+                <img src="images/js.png" alt="js-icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="images/bootstrap.png" alt="bootstrap-icon">
+                <p>Bootstrap</p>
+            </div>
+            <div class="card">
+                <img src="images/jquerry.png" alt="jquerry-icon">
+                <p>jQuerry</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project">
+        <h1 class="section-head">MY PROJECTS</h1>
+        <div class="container">
+          <div>
+              <img src="images/p1.png" alt="">
+              <a href="https://barnik-dev.github.io/tindog" target="_blank">
+                <h3 class="blur">tinDog Website</h3>
+              </a>
+          </div>
+          <div>
+              <img src="images/p2.png" alt="">
+              <a href="https://barnik-dev.github.io/task-app" target="_blank">
+                <h3 class="blur">RememberThat Website</h3>
+              </a>
+          </div>
+          <div>
+              <img src="images/p3.png" alt="">
+              <a href="https://barnik-dev.github.io/drum-kit" target="_blank">
+                <h3 class="blur">Drum Kit Website</h3>
+              </a>
+          </div>
+          <div>
+              <img src="images/p4.png" alt="">
+              <a href="https://barnik-dev.github.io/loruki" target="_blank">
+                <h3 class="blur">Loruki Website</h3>
+              </a>
+          </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about_me">
+        <h1 class="section-head">ABOUT MYSELF</h1>
+        <div class="container">
+            <img src="images/avatar.png" alt="">
+            <p>
+                Hello! My name is Barnik Chowdhury. I 
+                am currently working as a freelancer in
+                the field of web development or more
+                correctly as a front-end developer but
+                soon going to be a full-stack 🙂.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact_me">
+        <h1 class="section-head">CONTACT ME</h1>
+        <div class="container">
+            <h1 class="watermark top">
+                WANNA
+            </h1>
+            <h1 class="watermark bottom">
+                HIRE ME?
+            </h1>
+            <h2>Get in touch!</h2>
+            <p>WANNA HIRE ME FOR YOUR NEXT PROJECT?
+                DROP A MESSAGE BELOW.
+            </p>
+
+            <form action="https://formsubmit.co/barnik.chowdhury@gmail.com" method="POST">
+                <div class="form-group">
+                    <input type="text" name="yourName" class="form-input" required>
+                    <label for="yourName">Your Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" class="form-input" required>
+                    <label for="email">Your Email</label>
+                </div>
+
+                <div class="form-group">
+                   <textarea name="message" cols="30" rows="6" class="form-input" required></textarea>
+                   <label for="message">Your Message</label>
+                </div>
+
+                
+                 <input type="submit" class="send" value="Submit!">
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">BARNIK.</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#my_skills">Skills</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                </ul>
+            </nav>
+            <div class="social-link">
+                <a href="https://www.instagram.com/_devs_guide_" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.github.com/barnik-dev" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.twitter.com/barnik_dev" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <p>&copy; 2021 Copyright Barnik.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
